@@ -68,6 +68,6 @@ def write_github_reference():
         lines += ['', p['boundary'], '']
         if p.get('additionalSource'): lines += [p['additionalSource'], '']
     lines += ['## Present scale', '', 'The long-term institute vision is carried by an independent human–AI research and engineering initiative. Unit names do not establish staffed facilities, clinical services, accreditation, flight hardware, or deployed autonomous colleagues. The Energy Core is cross-institutional, not an eighth area. The three offices report directly to Kit in the charter.', '',
-              '## Naming and authority', '', 'Lelock AI Datacenter Command Systems is the approved formal name; **Lelock Command / AI Datacenter Systems** is the display treatment. Living Datacenter remains historical lineage. Public release remains unapproved; the repository is private and Pages stays disabled.', '',
+              '## Naming and authority', '', 'Lelock AI Datacenter Command Systems is the approved formal name; **Lelock Command / AI Datacenter Systems** is the display treatment. Living Datacenter remains historical lineage. Kit approved public release of this selected website repository and GitHub Pages site. Private continuity and other project repositories remain separate.', '',
               'This selected reference omits private identity numbers, private fan-history details, and internal source archives. The original PDF remains local and unmodified.']
     (ROOT / 'docs/ORGANIZATION.md').write_text('\n'.join(lines)+'\n')

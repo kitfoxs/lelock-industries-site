@@ -36,4 +36,4 @@ The portfolio also includes the source-first **Lelock Energy Core**, **C/H/A/P**
 
 We keep source, assumptions, demonstrations, and limitations visible. Project pages distinguish working local systems, prototypes, preprints, and proposals.
 
-This is a private draft for a future organization profile. Add verified organization-owned links after Kit chooses the organization and authorizes its creation/public profile.
+This is a proposed profile for a future dedicated GitHub organization. Current public home: [Lelock Industries website](https://kitfoxs.github.io/lelock-industries-site/) and [website repository](https://github.com/kitfoxs/lelock-industries-site). No dedicated organization or repository transfer is implied.

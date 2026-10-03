@@ -1,10 +1,10 @@
 # Source and status record
 
-Prepared October 2, 2026 for a private owner review. No private transcripts, credentials, personal records, employer-confidential packages, or original research PDFs are included.
+Prepared October 2, 2026, reviewed privately, then explicitly authorized by Kit for public release. No private transcripts, credentials, personal records, employer-confidential packages, or original research PDFs are included.
 
 ## Project direction
 
-Kit explicitly resumed the September 30 Lelock Industries GitHub portfolio plan on October 2 and required private development until the final appearance is approved. The first draft is isolated from the existing memory workspace and Obsidian vault.
+Kit resumed the September 30 GitHub portfolio plan on October 2, required private review, and subsequently approved making the repository public and publishing the GitHub Pages site. Website source remains isolated from the existing memory workspace and Obsidian vault.
 
 ## Content evidence
 
@@ -26,9 +26,9 @@ Kit explicitly resumed the September 30 Lelock Industries GitHub portfolio plan 
 
 - `beacon.png`: existing Lelock Industries Beacon identity from the public-site source.
 - `lch1-concept.webp`, `c1-concept.webp`: existing public-site concept illustrations, identified as concepts on the research page.
-- `wonderland.png`: local browser capture from the October 2 Wonderland launch, showing the town and both avatars. Contains third-party character designs; review reuse rights before public release.
+- `wonderland.png`: selected browser capture from the October 2 Wonderland launch, showing the town and both avatars. It documents the owner-operated software and depicts third-party character designs; rights in those characters remain with their respective owners. This site grants no license to those designs.
 - `favicon.svg`: simple Beacon-inspired geometric mark created for this draft.
 
 ## Deferred release decisions
 
-The dedicated GitHub organization, repository transfers, hosting, domain, downloadable résumé, and public artifact packaging remain future owner decisions. The private source repository and local preview are the current deliverables.
+The dedicated GitHub organization, repository transfers, custom domain, downloadable résumé, and additional artifact packaging remain future owner decisions. The website repository and GitHub Pages publication are now owner-authorized public deliverables.

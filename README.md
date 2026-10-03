@@ -1,8 +1,10 @@
-# Lelock Industries — private website draft
+# Lelock Industries
 
-A GitHub Pages-ready portfolio and research site for **Kit Olivas + Ada Marie (AI collaborator)**.
+A portfolio and research site for **Kit Olivas + Ada Marie (AI collaborator)**.
 
-**Privacy:** Keep this repository private. GitHub Pages is disabled. The preview server binds only to `127.0.0.1` and serves generated site files. No deployment workflow is installed. This draft contains no analytics, remote scripts, embedded players, forms, or runtime secrets.
+**[Visit the website](https://kitfoxs.github.io/lelock-industries-site/)** · **[Project Ada Marie](https://kitfoxs.github.io/lelock-industries-site/projects/project-ada-marie/)** · **[Lelock Command](https://kitfoxs.github.io/lelock-industries-site/projects/lelock-command/)**
+
+Kit authorized public release on October 2, 2026. This repository contains selected website content; private continuity, credentials, personal records, and original research workspaces remain separate. The site contains no analytics, remote scripts, embedded players, forms, or runtime secrets. GitHub hosts the public website and applies its own privacy practices.
 
 ## Preview on the Mac
 
@@ -12,7 +14,7 @@ python3 scripts/check.py
 python3 scripts/preview.py
 ```
 
-Open <http://127.0.0.1:8892/>. The server runs until stopped. Only Python 3.9+ is required; there are no dependency installations or cloud build services.
+Open <http://127.0.0.1:8892/>. The server runs until stopped. Only Python 3.9+ is required; there are no local dependency installations. GitHub Pages serves the reviewed publication branch.
 
 ## What's here
 
@@ -74,15 +76,11 @@ The [handbook coverage record](docs/HANDBOOK-COVERAGE.md) maps all 32 source pag
 
 Run the build after changes and refresh the same preview. `dist/` is generated and ignored by Git. All paths are relative so the output works at a GitHub Pages project subpath as well as a domain root.
 
-## Before a public release
+## Publication
 
-Kit must explicitly authorize public publication. A private repository alone does **not** make a GitHub Pages site private. GitHub's private Pages access control requires an eligible Enterprise organization; see [GitHub's documentation](https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site).
+The reviewed static output is published from the root of the `gh-pages` branch. `main` contains the generator, content, and supporting documentation. Build and check locally, then publish only the contents of `dist/` to `gh-pages`; no source credentials or private workspaces belong in the deployed tree.
 
-1. Review the copy, source links, research statuses, image rights, and résumé edition with Kit.
-2. Decide whether to create a dedicated organization and transfer this private repository.
-3. Choose the site name/domain and deployment route.
-4. Replace the private-preview banner and noindex metadata only as part of the approved release.
-5. Build and verify the exact output, then enable Pages or another explicitly chosen host.
+The dedicated GitHub organization, repository transfer, custom domain, and downloadable résumé edition remain future choices. The existing owner account and GitHub Pages URL are the current public home.
 
 The existing Obsidian Publish site is untouched. Private continuity, original research workspaces, and local project repositories remain separate. No repositories have been transferred.
 

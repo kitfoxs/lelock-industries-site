@@ -10,7 +10,7 @@ The complete text was reviewed and the seven-area organization map visually chec
 - Formal name: **Lelock AI Datacenter Command Systems**.
 - Display and proposed operations interface: **Lelock Command / AI Datacenter Systems**.
 - “Living Datacenter” remains historical lineage; its old route displays the current case study.
-- Repository remains private, Pages disabled, and preview loopback-only.
+- Kit subsequently authorized this selected website repository and its GitHub Pages site to become public. Private source archives remain separate; local previews stay loopback-only.
 - September 14 native-app delivery and October 2 Wonderland evidence remain distinct from the handbook's older source snapshots.
 
 ## All-page coverage matrix
@@ -55,7 +55,7 @@ The complete text was reviewed and the seven-area organization map visually chec
 - The full original PDF is a dated local source, not a bundled public download. Selected HTML/Markdown summaries provide the relevant scope without copying internal identifiers or private source descriptions.
 - Private fan-lineage details, personal quotations, numeric identity IDs, private correspondence, original memory archives, credentials, and unreviewed third-party material are not reproduced.
 - The historical specialist roster is a design shelf, not active staffing or fabricated team history.
-- The dedicated organization, public hosting/domain, release rights, downloadable résumé edition, contribution policy, legal form, specialist deployment, clinical/human-rated partnerships, final Energy Core envelope, mission selections, and succession arrangements remain owner decisions as applicable.
+- The dedicated organization, custom domain, rights for additional materials, downloadable résumé edition, contribution policy, legal form, specialist deployment, clinical/human-rated partnerships, final Energy Core envelope, mission selections, and succession arrangements remain owner decisions as applicable.
 - This coverage update does not start any laboratory, research program, autonomous process, service, physical experiment, or unrelated paused build.
 
 ## Shared source of truth for this site

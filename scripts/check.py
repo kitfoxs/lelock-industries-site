@@ -39,7 +39,7 @@ errors = []
 for path, p in pages.items():
     if p.h1 != 1: p.errors.append(f'Expected one h1, found {p.h1}')
     if p.main != 1: p.errors.append(f'Expected one main, found {p.main}')
-    if not p.noindex: p.errors.append('Missing private-preview noindex metadata')
+    if p.noindex: p.errors.append('Public pages must not retain private-preview noindex metadata')
     for tag, ref in p.refs:
         u = urlsplit(ref)
         if u.scheme:
@@ -54,7 +54,7 @@ for path, p in pages.items():
         elif u.fragment and target in pages and unquote(u.fragment) not in pages[target].ids: p.errors.append(f'Missing fragment: {ref}')
     errors.extend(f'{path.relative_to(OUT)}: {error}' for error in p.errors)
 if (ROOT / '.github/workflows').exists():
-    errors.append('Publishing automation is intentionally absent for this private draft')
+    errors.append('This site uses reviewed gh-pages branch publication, not a custom Actions workflow')
 projects = json.loads((ROOT / 'content/projects.json').read_text())
 areas = json.loads((ROOT / 'content/organization.json').read_text())
 programs = json.loads((ROOT / 'content/programs.json').read_text())
@@ -92,4 +92,4 @@ for artifact in [OUT / 'index.html', OUT / 'projects/index.html', OUT / 'project
 if errors:
     print('\n'.join(errors))
     sys.exit(1)
-print(f'PASS: {len(pages)} pages; links/assets, seven-area coverage, {len(programs)} program groups, approved naming, accessibility structure, and private-preview metadata.')
+print(f'PASS: {len(pages)} pages; links/assets, seven-area coverage, {len(programs)} program groups, approved naming, accessibility structure, and public-release metadata.')

@@ -252,6 +252,6 @@ The long-term institute vision is carried by an independent human–AI research 
 
 ## Naming and authority
 
-Lelock AI Datacenter Command Systems is the approved formal name; **Lelock Command / AI Datacenter Systems** is the display treatment. Living Datacenter remains historical lineage. Public release remains unapproved; the repository is private and Pages stays disabled.
+Lelock AI Datacenter Command Systems is the approved formal name; **Lelock Command / AI Datacenter Systems** is the display treatment. Living Datacenter remains historical lineage. Kit approved public release of this selected website repository and GitHub Pages site. Private continuity and other project repositories remain separate.
 
 This selected reference omits private identity numbers, private fan-history details, and internal source archives. The original PDF remains local and unmodified.
