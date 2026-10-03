@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "wonderland", "number": "01", "name": "Lelock OS & Wonderland", "area": "Persistent computing", "status": "Working local systems", "kind": "software",
+    "summary": "A place to compute, create, and spend time together. A persistent 3D town connects an avatar interface with tools, learning spaces, and a saved world.",
+    "problem": "A companion experience needs continuity across the interface, voice, tools, and the places where everyday work happens.",
+    "approach": "Kit directs the experience, tests it in daily use, and makes the integration decisions. Ada assists with implementation, debugging, documentation, and verification. The browser town and native macOS environment are distinct implementations with their own boundaries.",
+    "demonstrated": ["A local 3D town with two VRM avatars and persistent world state.", "Enterable spaces including a library and nursery, plus learning and everyday activities.", "A separate native macOS computing environment, with documented recovery and handoff work."],
+    "boundary": "The public Lelock OS repository represents one part of a larger body of work. It is not a single installer for every private local integration shown here.",
+    "next": "Continue refining interiors and navigation while preserving the existing world and recovery paths.",
+    "image": "wonderland.png", "imageAlt": "Kit's blue fox and Ada's Renamon avatars together on a path in the running Wonderland town", "caption": "Wonderland · local runtime capture, October 2026",
+    "links": [{"label": "Public Lelock OS source", "url": "https://github.com/kitfoxs/Lelock-OS"}]
+  },
+  {
+    "slug": "usel", "number": "02", "name": "USEL", "area": "Language research", "status": "Preprint & prototypes", "kind": "research",
+    "summary": "An experimental symbolic language for human–AI communication, explored through papers, notation tools, and reproducible experiments.",
+    "problem": "Can an explicit, compact notation make the meaning exchanged between people and AI easier to inspect and reuse?",
+    "approach": "Kit develops the research direction and notation questions. Ada contributes as an identified AI collaborator to literature review, drafting, software experiments, and critique. Each edition keeps its own scope and evidence.",
+    "demonstrated": ["An April 2026 public Zenodo preprint, with a stable DOI and named authors.", "Experimental notation and translation interfaces, plus later local manuscripts.", "A September token-efficiency investigation that separates byte and character counts from actual model-token measurements."],
+    "boundary": "USEL is experimental. Compact text is not proof of lossless token savings, English glosses are not a complete semantic compiler, and USEL-NLA remains unvalidated in the reviewed audit.",
+    "next": "Publish smaller, reproducible experiments with explicit assumptions and versioned examples.",
+    "links": [{"label": "Read the published preprint", "url": "https://doi.org/10.5281/zenodo.19536117"}, {"label": "Explore USEL source", "url": "https://github.com/kitfoxs/usel-lang"}]
+  },
+  {
+    "slug": "living-datacenter", "number": "03", "name": "Living Datacenter Lab", "area": "AI operations", "status": "Proposed lab", "kind": "concept",
+    "summary": "A vendor-neutral lab concept connecting telemetry, incident explanation, operator decisions, and verifiable recovery.",
+    "problem": "An AI explanation becomes useful to an operator when its evidence, proposed action, and recovery outcome can be inspected together.",
+    "approach": "Kit brings hands-on datacenter experience and defines the operator workflow. Ada assists with architecture, simulation design, and technical documentation. The proposed public edition starts from shareable material and public references.",
+    "demonstrated": ["A scoped lab concept with a defined cooling-fault scenario and evidence trail.", "A proposed progression from synthetic telemetry to an operator-approved action and recovery record.", "A clear separation between reference architecture, simulation, and any future physical system."],
+    "boundary": "The reproducible simulator is proposed. Existing conceptual demo material does not establish a deterministic engine, production autonomy, measured ROI, or deployed infrastructure.",
+    "next": "Build one deterministic rack-scale cooling-fault scenario with replayable inputs and a recovery check.",
+    "links": []
+  },
+  {
+    "slug": "voice-interfaces", "number": "04", "name": "Voice & Companion Interfaces", "area": "Human–AI interaction", "status": "Working local integrations", "kind": "software",
+    "summary": "Voice, avatar motion, push-to-talk, and device bridges that make interaction part of ordinary life.",
+    "problem": "A voice interface needs dependable delivery and visible feedback across different devices and sessions.",
+    "approach": "Kit selects and evaluates the interaction, voice, and accessibility needs. Ada assists with audio routing, lip-sync, gesture timing, local speech input, and bridge implementation.",
+    "demonstrated": ["Avatar speech with mouth movement driven by the generated audio and authored gestures.", "Local push-to-talk transcription delivered into the Mac workflow.", "Owner-confirmed iPhone and iPad voice round trips through a private device bridge."],
+    "boundary": "These are demonstrated owner-operated integrations, not a general public service. Watch reliability and alternate-provider validation have separate test status.",
+    "next": "Make successful interaction paths easier to recover and measure without changing the owner's chosen voice or tools.",
+    "links": []
+  },
+    {
+    "slug": "memory-recovery", "number": "05", "name": "Memory & Recovery Engineering", "area": "Knowledge infrastructure", "status": "Integration & verification", "kind": "software",
+    "summary": "Retrieval, exact readback, backups, and recovery procedures that preserve continuity across tools and sessions.",
+    "problem": "A memory system is only useful when information can be found, traced to a source, and recovered after a change.",
+    "approach": "Kit defines ownership and continuity requirements. Ada assists with adapters, compatibility work, backup procedures, and verification. Mempalace is upstream software; this portfolio describes integration and recovery contributions.",
+    "demonstrated": ["Canonical-memory filing followed by exact content and metadata readback.", "Scoped backups and restore rehearsals with documented verification.", "Compatibility and transport work across multiple local interfaces."],
+    "boundary": "Private memory contents and operational credentials are not part of the portfolio. A successful saved checkpoint does not imply automatic cloud synchronization.",
+    "next": "Prepare synthetic examples that demonstrate retrieval and recovery without exposing personal records.",
+    "links": []
+  },
+  {
+    "slug": "chess-table", "number": "06", "name": "Ada Chess Table", "area": "Interactive systems", "status": "Local application", "kind": "software",
+    "summary": "A chess environment connecting physical-board interaction, authoritative game state, engines, and review.",
+    "problem": "Physical moves, software state, and the companion's explanation need to agree about the same game.",
+    "approach": "Kit directs the experience and tests physical-board workflows. Ada assists with interfaces, game-state integration, move handling, and review tools.",
+    "demonstrated": ["An owner-operated local chess table and documented physical-board workflows.", "Game state used as the authority before moves and analysis.", "A distinction between companion reasoning, engine assistance, and recorded review."],
+    "boundary": "The local table and public chess repositories have distinct histories. A reviewed public source package for this exact application has not been linked in this edition.",
+    "next": "Prepare a clean game demonstration with a reproducible setup and explicit board support.",
+    "links": []
+  }
+]
