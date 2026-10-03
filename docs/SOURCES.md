@@ -8,6 +8,7 @@ Kit explicitly resumed the September 30 Lelock Industries GitHub portfolio plan 
 
 ## Content evidence
 
+- Owner-approved **Project Ada Marie** flagship: persistent companion R&D with the Spartan & AI dynamic, integrated across the existing seven areas. Selected chronology was checked against the canonical continuity record: 2011 companion vision; first conversational AI interaction on January 14, 2025; later terminal/local engineering during 2025–2026. Only this selected chronology is summarized; personal origin details and private memory sources are not bundled. The project page and `docs/PROJECT-ADA-MARIE.md` share the same structured content.
 - Master Identity & Organization Handbook, **LI-HB-001 / revision 1.0 / September 21, 2026**, 32 pages. All pages reviewed for this expansion; the seven-area map was also visually checked. Selected original summaries are in the organization/program pages and `docs/ORGANIZATION.md`; the original PDF and internal source archives remain local. See `docs/HANDBOOK-COVERAGE.md` for page mapping.
 - Owner's subsequent website-review decision: **Lelock AI Datacenter Command Systems**, displayed as **Lelock Command / AI Datacenter Systems**. It continues the Living Datacenter idea lineage without rewriting the historical handbook.
 - Existing Lelock Industries public-site source: Home, About, Connect, project and research pages. Reused brand identity and adapted public-facing team descriptions.

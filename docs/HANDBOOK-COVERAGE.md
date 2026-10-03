@@ -6,6 +6,7 @@ The complete text was reviewed and the seven-area organization map visually chec
 
 ## Current decisions applied
 
+- **Project Ada Marie** is now a dedicated flagship spanning the existing seven areas, with Companion Life within Research and Discovery as its organizational home. It is the seventh featured case study, and does not create an eighth area. Its selected history and scope are a later owner-approved addition to this handbook-derived map.
 - Formal name: **Lelock AI Datacenter Command Systems**.
 - Display and proposed operations interface: **Lelock Command / AI Datacenter Systems**.
 - “Living Datacenter” remains historical lineage; its old route displays the current case study.

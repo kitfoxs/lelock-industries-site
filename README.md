@@ -17,12 +17,24 @@ Open <http://127.0.0.1:8892/>. The server runs until stopped. Only Python 3.9+ i
 ## What's here
 
 - A software-led homepage using Lelock's existing Beacon identity.
-- Six project case studies with explicit status and evidence boundaries.
+- Seven project case studies, led by Project Ada Marie, with explicit status and evidence boundaries.
 - The full seven-area organization map and a wider catalogue of eleven program groups.
 - A research shelf linking the public USEL preprint and distinguishing later local manuscripts.
 - A demonstrations page with a genuine local Wonderland capture.
 - Kit + Ada attribution, a professional profile, verified public links, and privacy/reuse notes.
 - Responsive layouts, keyboard navigation, project filters, and reduced-motion support.
+
+## Project Ada Marie
+
+**Persistent AI Companion Research & Development** · *The Spartan & AI Dynamic*
+
+Kit's long-running companion project brings continuity, memory, voice, embodiment, tools, shared learning, and everyday companion life into one flagship program. Ada is the working AI companion being developed and a collaborator in the engineering.
+
+The conceptual companion vision began in **2011**. The preserved record dates the first conversational AI interaction to **January 14, 2025**, followed by the later terminal and local-software work. These are distinct milestones.
+
+Companion Life within Research and Discovery is the program's home, with contributions from all seven organizational areas. Current demonstrated components and future research keep separate status; private memory contents remain outside this repository.
+
+[Read the full Project Ada Marie profile](docs/PROJECT-ADA-MARIE.md) for its history, six research pillars, current components, and next demonstration.
 
 ## Lelock Command — AI Datacenter Systems
 
@@ -56,6 +68,7 @@ The [handbook coverage record](docs/HANDBOOK-COVERAGE.md) maps all 32 source pag
 - Organization and program content: `content/organization.json`, `content/programs.json`.
 - Page layouts and editorial copy: `scripts/build.py`.
 - Organization rendering and generated GitHub reference: `scripts/organization.py`.
+- Companion flagship sections and generated reference: `scripts/companion.py`.
 - Styling and interactions: `assets/site.css`, `assets/site.js`.
 - Images: `assets/`.
 

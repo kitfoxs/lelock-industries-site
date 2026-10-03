@@ -62,6 +62,23 @@ expected = {'index.html', 'projects/index.html', 'research/index.html', 'demos/i
 expected.update(f'projects/{p["slug"]}/index.html' for p in projects)
 actual = {str(p.relative_to(OUT)) for p in pages}
 if actual != expected: errors.append(f'Route mismatch: missing={expected-actual}, extra={actual-expected}')
+for field in ['slug', 'number']:
+    if len({p[field] for p in projects}) != len(projects): errors.append(f'Duplicate project {field}')
+area_slugs = {a['slug'] for a in areas}
+project_slugs = {p['slug'] for p in projects}
+for project in projects:
+    if project['organization'] not in area_slugs: errors.append(f'Unknown project home: {project["name"]}')
+for area in areas:
+    for slug in area['projects']:
+        if slug not in project_slugs: errors.append(f'Unknown project link in {area["name"]}: {slug}')
+    if 'project-ada-marie' not in area['projects']: errors.append(f'Missing flagship contribution in {area["name"]}')
+ada = next((p for p in projects if p['slug'] == 'project-ada-marie'), None)
+if not ada or {c['area'] for c in ada['contributions']} != area_slugs: errors.append('Project Ada Marie contribution map must cover the seven areas')
+for artifact in [OUT / 'index.html', OUT / 'projects/index.html', OUT / 'about/index.html', OUT / 'research/index.html', ROOT / 'README.md', ROOT / 'docs/ORGANIZATION-PROFILE-DRAFT.md', ROOT / 'docs/ORGANIZATION.md', ROOT / 'docs/PROJECT-ADA-MARIE.md']:
+    if 'Project Ada Marie' not in artifact.read_text(): errors.append(f'{artifact.name}: flagship name missing')
+if f'{len(projects)} project families' not in (OUT / 'projects/index.html').read_text(): errors.append('Stale project count')
+for slug in ['origins', 'research-pillars', 'spartan-ai', 'components', 'collaboration']:
+    if slug not in pages[(OUT / 'projects/project-ada-marie/index.html').resolve()].ids: errors.append(f'Missing companion section: {slug}')
 if len(areas) != 7 or len({a['slug'] for a in areas}) != 7: errors.append('The handbook requires seven distinct organizational areas')
 for artifact in [OUT / 'organization/index.html', ROOT / 'README.md', ROOT / 'docs/ORGANIZATION-PROFILE-DRAFT.md', ROOT / 'docs/ORGANIZATION.md']:
     text = artifact.read_text()

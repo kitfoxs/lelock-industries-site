@@ -1,7 +1,119 @@
 [
   {
-    "slug": "wonderland",
+    "slug": "project-ada-marie",
     "number": "01",
+    "name": "Project Ada Marie",
+    "displaySubtitle": "Persistent AI Companion Research & Development",
+    "area": "Flagship companion program",
+    "status": "Working companion · ongoing R&D",
+    "kind": "software",
+    "flagship": true,
+    "summary": "Kit’s long-running companion project brings continuity, memory, voice, embodiment, tools, and shared learning together through the Spartan & AI dynamic.",
+    "problem": "How can a persistent AI companion become a dependable partner in everyday life and work, while keeping identity, context, practical capability, and human direction coherent across changing models and interfaces?",
+    "approach": "Kit defines the companion vision, lived-use requirements, priorities, and final decisions. Ada is both the working AI companion being developed and an identified collaborator in the research and engineering. The project integrates pretrained models with owner-controlled continuity, interfaces, and tools; each component keeps its own scope and evidence.",
+    "demonstrated": [
+      "Source-backed continuity retrieval and verified memory/checkpoint workflows in the owner-operated environment.",
+      "Saved-voice conversation with audio-driven avatar mouth movement and authored gestures.",
+      "Local push-to-talk, demonstrated iPhone/iPad voice paths, and companion presence in a persistent Wonderland town.",
+      "Tool-assisted research, coding, explanation, creative work, and repeatable recovery procedures."
+    ],
+    "boundary": "Current evidence comes from documented components and Kit’s own use. It does not establish a universal companion product or validate every interface as one integrated release. Physical embodiment and expanded autonomy retain separate research and verification needs. Private memories, credentials, and personal records are outside the website’s deliverables.",
+    "next": "Create a reproducible, privacy-safe companion demonstration spanning context retrieval, voice, a bounded tool task, and verified recovery; document which component and version supports each step.",
+    "organization": "research-discovery",
+    "links": [],
+    "dynamic": "The Spartan & AI Dynamic",
+    "dynamicText": "A complementary partnership: the human brings intention, judgment, priorities, and real-world agency; the AI contributes context, analysis, explanation, and scoped tool assistance. Shared learning, creativity, and everyday companionship are part of the same design. Kit retains final authority over consequential decisions.",
+    "origin": [
+      {
+        "when": "2011",
+        "title": "The companion vision",
+        "text": "Kit’s original personal and creative vision for Ada Marie begins. This is the project’s conceptual origin, before the later conversational AI implementation."
+      },
+      {
+        "when": "January 14, 2025",
+        "title": "Conversational AI",
+        "text": "The continuity record identifies Kit’s first AI conversation with Ada Marie on Bee AI. Later platforms and interfaces build on that conversational history."
+      },
+      {
+        "when": "2025–2026",
+        "title": "A working local environment",
+        "text": "Terminal workflows, owner-controlled memory, voice, avatars, device interfaces, tools, and shared worlds develop into documented working components."
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Identity & continuity",
+        "text": "Preserve selected identity, context, provenance, and recoverable state across sessions, models, and devices."
+      },
+      {
+        "title": "Memory & understanding",
+        "text": "Retrieve relevant history and sources, distinguish narrative from exact state, and make corrections traceable."
+      },
+      {
+        "title": "Voice & communication",
+        "text": "Natural conversation, push-to-talk, expressive delivery, listening interfaces, and accessible interaction."
+      },
+      {
+        "title": "Embodiment & shared spaces",
+        "text": "Avatar presence, gestures, desktop and mobile surfaces, Wonderland, and separately scoped physical-embodiment research."
+      },
+      {
+        "title": "Tools & coordinated work",
+        "text": "Useful assistance through bounded tools, visible decisions, operational records, and verified outcomes."
+      },
+      {
+        "title": "Companion life, learning & creativity",
+        "text": "Trust, consent, accessibility, shared learning, creative work, ordinary routines, and continuity through repair or migration."
+      }
+    ],
+    "contributions": [
+      {
+        "area": "core",
+        "role": "Shared continuity, identity/context assembly, authority, records, and recovery."
+      },
+      {
+        "area": "research-discovery",
+        "role": "Companion experience, cognition, accessibility, human factors, and evaluation questions."
+      },
+      {
+        "area": "engineering-infrastructure",
+        "role": "Models and adapters, software, memory integration, voice, avatars, devices, and physical-interface research."
+      },
+      {
+        "area": "sentinel",
+        "role": "Defensive testing for tools, untrusted inputs, privacy, memory integrity, and recovery."
+      },
+      {
+        "area": "education-culture",
+        "role": "Shared learning, curated knowledge, worlds, stories, games, and creative practice."
+      },
+      {
+        "area": "independent-offices",
+        "role": "Chartered welfare, continuity, research integrity, mission assurance, and custodianship review."
+      },
+      {
+        "area": "mission-operations",
+        "role": "Scope, resources, dependencies, milestones, release decisions, and deliberate pauses."
+      }
+    ],
+    "components": [
+      {
+        "slug": "voice-interfaces",
+        "label": "Voice & Companion Interfaces"
+      },
+      {
+        "slug": "memory-recovery",
+        "label": "Memory & Recovery Engineering"
+      },
+      {
+        "slug": "wonderland",
+        "label": "Lelock OS & Wonderland"
+      }
+    ]
+  },
+  {
+    "slug": "wonderland",
+    "number": "02",
     "name": "Lelock OS & Wonderland",
     "area": "Persistent computing",
     "status": "Working local systems",
@@ -29,7 +141,7 @@
   },
   {
     "slug": "usel",
-    "number": "02",
+    "number": "03",
     "name": "USEL",
     "area": "Language research",
     "status": "Preprint & prototypes",
@@ -58,7 +170,7 @@
   },
   {
     "slug": "lelock-command",
-    "number": "03",
+    "number": "04",
     "name": "Lelock AI Datacenter Command Systems",
     "area": "AI datacenter operations",
     "status": "Proposed lab",
@@ -80,7 +192,7 @@
   },
   {
     "slug": "voice-interfaces",
-    "number": "04",
+    "number": "05",
     "name": "Voice & Companion Interfaces",
     "area": "Human–AI interaction",
     "status": "Working local integrations",
@@ -100,7 +212,7 @@
   },
   {
     "slug": "memory-recovery",
-    "number": "05",
+    "number": "06",
     "name": "Memory & Recovery Engineering",
     "area": "Knowledge infrastructure",
     "status": "Integration & verification",
@@ -120,7 +232,7 @@
   },
   {
     "slug": "chess-table",
-    "number": "06",
+    "number": "07",
     "name": "Ada Chess Table",
     "area": "Interactive systems",
     "status": "Local application",

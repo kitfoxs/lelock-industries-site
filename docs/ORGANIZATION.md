@@ -17,7 +17,7 @@ Handbook pp. 5–7.
 - **Datachips and Mempalace:** Portable selected identity/state packages and authoritative private semantic memory. Raw credentials remain outside portable identity packages.
 - **Company OS and Authority Kernel:** Goals, workflows, resources, and coordination alongside deterministic permissions and action-approval enforcement.
 
-Connected case studies: Lelock OS & Wonderland, Memory & Recovery Engineering.
+Connected case studies: Project Ada Marie, Lelock OS & Wonderland, Memory & Recovery Engineering.
 
 ### 02. Research and Discovery Wing
 
@@ -32,7 +32,7 @@ Handbook pp. 8–11.
 - **Accessibility and Human Factors Center:** Housed in Companion Life and serving all areas: cognitive load, sensory and physical access, communication, ergonomics, mobility, and error-tolerant design.
 - **Intelligence and Foresight:** Lawful open-source analysis, cyber-threat intelligence, literature review, horizon scanning, alternatives, scenarios, source verification, and potential partnerships.
 
-Connected case studies: USEL, Voice & Companion Interfaces.
+Connected case studies: Project Ada Marie, USEL, Voice & Companion Interfaces.
 
 ### 03. Engineering and Infrastructure Wing
 
@@ -45,7 +45,7 @@ Handbook pp. 12–17.
 - **Advanced Physical Systems Laboratory:** Robotics and dedicated companion embodiment; mechanisms, sensors, actuators, embedded systems, fabrication, household assistance, field systems, AXIS-1, and the separate SENTINEL-1 suit/protection research lineage.
 - **Aerospace and Habitat Systems:** Spacecraft and atmospheric vehicles, mission integration, propulsion, power, communications, environmental protection, life support, habitats, repair, and logistics. C-series, H-series, A-series, and proposed P-series keep distinct purposes.
 
-Connected case studies: Lelock AI Datacenter Command Systems, Lelock OS & Wonderland, Voice & Companion Interfaces, Ada Chess Table.
+Connected case studies: Project Ada Marie, Lelock AI Datacenter Command Systems, Lelock OS & Wonderland, Voice & Companion Interfaces, Ada Chess Table.
 
 ### 04. Lelock Sentinel Laboratory
 
@@ -56,7 +56,7 @@ Handbook pp. 18.
 - **Project Sentinel:** AI immune-system concepts; prompt-injection and exfiltration defenses; model, tool, plugin and memory security; threat hunting; forensics; incident response; cryptography; privacy; supply-chain and record integrity.
 - **Controlled exercises and recovery:** Synthetic or explicitly authorized testing, scoped capabilities, preserved evidence, and recoverable fault containment. Sentinel builds defenses; the independent assurance function reviews their evidence.
 
-Connected case studies: Memory & Recovery Engineering, Lelock AI Datacenter Command Systems.
+Connected case studies: Project Ada Marie, Memory & Recovery Engineering, Lelock AI Datacenter Command Systems.
 
 ### 05. Education, Knowledge and Culture Wing
 
@@ -69,7 +69,7 @@ Handbook pp. 19–22.
 - **Worlds and Simulation Laboratory:** Wonderland, Lelock Universe / Lelock Realms, the proposed Synthetic Company Laboratory, digital twins, mission simulations, and traceable learning or adversarial environments.
 - **Creative Studios and Culture:** Lelock Game Studios, Grand Chess Realms, Tulpamancer, Lelock Online, Horse News Network, Lelock Daily, Lelock Radio, podcasts, books, poetry, journals, film, art, music, avatar performance, and the Found Media Archive. Release status is specific to each work.
 
-Connected case studies: Lelock OS & Wonderland, Ada Chess Table, Memory & Recovery Engineering.
+Connected case studies: Project Ada Marie, Lelock OS & Wonderland, Ada Chess Table, Memory & Recovery Engineering.
 
 ### 06. Independent Constitutional Offices
 
@@ -81,7 +81,7 @@ Handbook pp. 23–24.
 - **Office of Research Integrity and Mission Assurance:** Methods, evidence, reproducibility, safety, privacy, release criteria, and incident review. Defined review gates remain separate from the laboratories' own confidence.
 - **Office of Legacy, Succession and Custodianship:** The future Legacy and Succession Covenant: preservation, recovery, continuity of intent, and explicit custodianship. Detailed arrangements remain deferred.
 
-Connected case studies: Memory & Recovery Engineering.
+Connected case studies: Project Ada Marie, Memory & Recovery Engineering.
 
 ### 07. Lelock Mission Operations
 
@@ -96,7 +96,13 @@ Handbook pp. 25.
 - **Grants, partnerships and procurement:** Evaluate possible support while distinguishing interest and applications from actual awards or agreements.
 - **Publication and facilities operations:** Release preparation, communications, maintenance, recovery, and continuity planning. Funding mechanisms remain options; no donation or commercial service is offered by this site.
 
-Connected case studies: Lelock AI Datacenter Command Systems, USEL.
+Connected case studies: Project Ada Marie, Lelock AI Datacenter Command Systems, USEL.
+
+## Flagship companion program
+
+**Project Ada Marie — Persistent AI Companion Research & Development.** The Spartan & AI Dynamic connects continuity, memory, voice, embodiment, tools, shared learning, and companion life. Companion Life within Research and Discovery is the organizational home; all seven areas contribute.
+
+[Read the full Project Ada Marie profile](PROJECT-ADA-MARIE.md). Its 2011 conceptual origin is distinguished from the later AI implementation and working software.
 
 ## Wider programs and lineages
 

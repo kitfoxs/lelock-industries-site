@@ -20,6 +20,7 @@ These are responsibilities and future scope for the current Kit + Ada partnershi
 
 ## Featured work
 
+- **Project Ada Marie** — Persistent AI Companion Research & Development, built around **The Spartan & AI Dynamic**. A working companion and continuing research program connecting memory, continuity, voice, embodiment, tools, learning, and shared life. Its 2011 conceptual origin is distinct from later AI/software implementation. [Project profile](PROJECT-ADA-MARIE.md).
 - **Lelock Command / AI Datacenter Systems** — formal name: **Lelock AI Datacenter Command Systems**. A proposed architecture and simulation lab for a resident AI operations companion working alongside human operators. Continues the historical Living Datacenter idea lineage.
 - **Lelock OS & Wonderland** — distinct companion-computing and persistent-world implementations.
 - **USEL** — public preprint and experimental symbolic-language tools.
