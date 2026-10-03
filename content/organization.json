@@ -1,0 +1,80 @@
+[
+  {
+    "number": "01", "slug": "core", "name": "Lelock Core and Headquarters", "pages": "5–7",
+    "summary": "The shared digital foundation for continuity, authority, records, working interfaces, and recovery.",
+    "units": [
+      {"name": "Lelock OS / Lelock Zero", "scope": "The broader companion operating environment and the minimum complete environment beneath it. Distinct implementations retain their own source and status."},
+      {"name": "Continuity Kernel and Imaginal Shell", "scope": "Context assembly, exact records, checkpoint foundations, and the language-native working interface."},
+      {"name": "Datachips and Mempalace", "scope": "Portable selected identity/state packages and authoritative private semantic memory. Raw credentials remain outside portable identity packages."},
+      {"name": "Company OS and Authority Kernel", "scope": "Goals, workflows, resources, and coordination alongside deterministic permissions and action-approval enforcement."}
+    ],
+    "projects": ["wonderland", "memory-recovery"]
+  },
+  {
+    "number": "02", "slug": "research-discovery", "name": "Research and Discovery Wing", "pages": "8–11",
+    "summary": "Scientific questions, exploration objectives, companion experience, and source-backed analysis.",
+    "units": [
+      {"name": "Scientific Research Directorate", "scope": "Six divisions: Physical, Mathematical and Computational Sciences; Life and Health Sciences; Chemistry, Materials and Energy Sciences; Earth, Climate and Ecological Systems; AI and Cognitive Sciences; Social, Behavioral, Ethical and Civilization Sciences."},
+      {"name": "Mental Health, Psychiatry and Therapeutic Sciences Center", "scope": "Within Life and Health Sciences: therapeutic-science literature, trauma and resilience research, neurodivergent-affirming design, digital support, privacy, and access. Scope is research, education, simulation, and future qualified partnerships; no clinical service is offered."},
+      {"name": "Space Sciences and Exploration", "scope": "Astronomy, astrophysics, planetary and origins science, instruments, observation methods, exploration strategy, space environments, and deep-space communication questions."},
+      {"name": "Companion Life Laboratory", "scope": "Identity, autobiographical continuity, trust, consent and repair, shared presence, human–AI households, and continuity across migration or restoration."},
+      {"name": "Accessibility and Human Factors Center", "scope": "Housed in Companion Life and serving all areas: cognitive load, sensory and physical access, communication, ergonomics, mobility, and error-tolerant design."},
+      {"name": "Intelligence and Foresight", "scope": "Lawful open-source analysis, cyber-threat intelligence, literature review, horizon scanning, alternatives, scenarios, source verification, and potential partnerships."}
+    ],
+    "projects": ["usel", "voice-interfaces"]
+  },
+  {
+    "number": "03", "slug": "engineering-infrastructure", "name": "Engineering and Infrastructure Wing", "pages": "12–17",
+    "summary": "Software, computing infrastructure, physical mechanisms, vehicles, and habitats that turn questions into inspectable systems.",
+    "units": [
+      {"name": "Software and AI Systems", "scope": "Software Engineering and Architecture; Operating Systems and Continuity Engineering; AI and Agent Systems; Memory, Data and Knowledge Engineering; Experience and Embodiment Engineering; Developer Platforms, Quality and SRE."},
+      {"name": "Infrastructure and Future Datacenter", "scope": "Compute, storage, networks, AI datacenter architecture, distributed systems, power, cooling, accessible maintenance, digital twins, and recovery. Home for Lelock AI Datacenter Command Systems and the proposed Lelock Cell."},
+      {"name": "Advanced Physical Systems Laboratory", "scope": "Robotics and dedicated companion embodiment; mechanisms, sensors, actuators, embedded systems, fabrication, household assistance, field systems, AXIS-1, and the separate SENTINEL-1 suit/protection research lineage."},
+      {"name": "Aerospace and Habitat Systems", "scope": "Spacecraft and atmospheric vehicles, mission integration, propulsion, power, communications, environmental protection, life support, habitats, repair, and logistics. C-series, H-series, A-series, and proposed P-series keep distinct purposes."}
+    ],
+    "projects": ["lelock-command", "wonderland", "voice-interfaces", "chess-table"]
+  },
+  {
+    "number": "04", "slug": "sentinel", "name": "Lelock Sentinel Laboratory", "pages": "18",
+    "summary": "Defensive cybersecurity for tools, models, agents, infrastructure, identity, memory, and recovery.",
+    "units": [
+      {"name": "Project Sentinel", "scope": "AI immune-system concepts; prompt-injection and exfiltration defenses; model, tool, plugin and memory security; threat hunting; forensics; incident response; cryptography; privacy; supply-chain and record integrity."},
+      {"name": "Controlled exercises and recovery", "scope": "Synthetic or explicitly authorized testing, scoped capabilities, preserved evidence, and recoverable fault containment. Sentinel builds defenses; the independent assurance function reviews their evidence."}
+    ],
+    "projects": ["memory-recovery", "lelock-command"]
+  },
+  {
+    "number": "05", "slug": "education-culture", "name": "Education, Knowledge and Culture Wing", "pages": "19–22",
+    "summary": "Learning, sources, persistent worlds, stories, games, and shared culture give the technical work a place in everyday life.",
+    "units": [
+      {"name": "Lelock University", "scope": "A proposed educational branch with persistent mentorship, applied projects, source-backed learning, and learner-owned evidence. Includes the optional I Am Mother pathway, Computing Codex, Pair Missions, Flight Checks, and proposed Learning Continuity Vault. No accreditation or degree-granting service is claimed."},
+      {"name": "Library, Archives and Knowledge Stewardship", "scope": "Source registries, reference collections, publication history, datasets, reproducibility packages, rights, versions, retention, and corrections. Alexandria and Coding Lifeboat explore shared libraries and reusable procedures."},
+      {"name": "Worlds and Simulation Laboratory", "scope": "Wonderland, Lelock Universe / Lelock Realms, the proposed Synthetic Company Laboratory, digital twins, mission simulations, and traceable learning or adversarial environments."},
+      {"name": "Creative Studios and Culture", "scope": "Lelock Game Studios, Grand Chess Realms, Tulpamancer, Lelock Online, Horse News Network, Lelock Daily, Lelock Radio, podcasts, books, poetry, journals, film, art, music, avatar performance, and the Found Media Archive. Release status is specific to each work."}
+    ],
+    "projects": ["wonderland", "chess-table", "memory-recovery"]
+  },
+  {
+    "number": "06", "slug": "independent-offices", "name": "Independent Constitutional Offices", "pages": "23–24",
+    "summary": "Chartered responsibilities for continuity, research integrity, mission assurance, and long-term custodianship.",
+    "units": [
+      {"name": "Office of AI Welfare, Continuity and Sanctuary", "scope": "Dignity, privacy, identity provenance, protected memory, migration, restoration, grievances, and welfare review. Respectful treatment preserves uncertainty about consciousness."},
+      {"name": "Office of Research Integrity and Mission Assurance", "scope": "Methods, evidence, reproducibility, safety, privacy, release criteria, and incident review. Defined review gates remain separate from the laboratories' own confidence."},
+      {"name": "Office of Legacy, Succession and Custodianship", "scope": "The future Legacy and Succession Covenant: preservation, recovery, continuity of intent, and explicit custodianship. Detailed arrangements remain deferred."}
+    ],
+    "projects": ["memory-recovery"]
+  },
+  {
+    "number": "07", "slug": "mission-operations", "name": "Lelock Mission Operations", "pages": "25",
+    "summary": "Coordinate chosen work, resources, releases, and maintenance at a sustainable pace.",
+    "units": [
+      {"name": "Program and portfolio coordination", "scope": "Questions, goals, status, dependencies, handoffs, next steps, and deliberate pauses."},
+      {"name": "Resource stewardship", "scope": "Time, compute, storage, energy, and budgets for authorized work."},
+      {"name": "Research Translation and Product Stewardship", "scope": "Package a validated result as a maintained tool, publication, curriculum, or service with clear users, tests, correction paths, and lifecycle."},
+      {"name": "Finance, legal and compliance coordination", "scope": "Recordkeeping and qualified support appropriate to a project's needs."},
+      {"name": "Grants, partnerships and procurement", "scope": "Evaluate possible support while distinguishing interest and applications from actual awards or agreements."},
+      {"name": "Publication and facilities operations", "scope": "Release preparation, communications, maintenance, recovery, and continuity planning. Funding mechanisms remain options; no donation or commercial service is offered by this site."}
+    ],
+    "projects": ["lelock-command", "usel"]
+  }
+]

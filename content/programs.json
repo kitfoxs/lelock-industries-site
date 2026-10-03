@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "energy-core",
+    "name": "Lelock Energy Core",
+    "status": "Source-first research direction",
+    "home": "engineering-infrastructure",
+    "pages": "16–17",
+    "summary": "A cross-institutional program investigating compact, sustained power for future spacecraft, vehicles, robotics, and other machines. The source, conversion equipment, auxiliaries, thermal system, and host integration belong in the same comparison.",
+    "details": [
+      "Compare sustained net electrical output and useful mission energy per installed kilogram and litre, counting fuel, required oxidant, conversion equipment, auxiliaries, cooling, shielding, and operating envelope. Report active-source size separately from complete installed-system size.",
+      "N lane: fission-electric comparisons for long-duration space power.",
+      "M lane: refuellable mobile electrochemical systems, including fuel-cell and metal-air comparisons.",
+      "X lane: frontier fusion / direct-conversion hypotheses, with net-energy and scaling unresolved.",
+      "LEC v0.2 power management remains supporting work. Final ratings, mass, dimensions, duration, fuel, hardware, and architecture are unselected. LEC-N100 and LEC-M100 are proposed comparison cases, not performance commitments.",
+      "The handbook proposes Infrastructure and Future Datacenter as the integration home, collaborating with Scientific Research, Advanced Physical Systems, Aerospace and Habitat Systems, Software, Worlds and Simulation, Sentinel, and Research Integrity and Mission Assurance."
+    ],
+    "boundary": "Energy Core is a program across existing areas, not an eighth organizational wing. Physical source performance has not been established.",
+    "homeLabel": "Proposed integration home",
+    "homeName": "Infrastructure and Future Datacenter · Engineering and Infrastructure Wing"
+  },
+  {
+    "slug": "spacecraft",
+    "name": "Project Lelock & the spacecraft families",
+    "status": "Analytical studies & concepts",
+    "home": "engineering-infrastructure",
+    "pages": "9, 15, 27–28",
+    "summary": "The broader Project Lelock connects continuity, archives, habitation, and exploration. Its vehicles retain different missions and histories.",
+    "details": [
+      "C-series / C-1: AI-only exploration. The earlier 250-kg solar-electric case and 1,200-kg C1-U-R1 analytical study remain separate scenarios.",
+      "H-series: human + AI habitat and home-ship lineage; useful habitation work may be deliberately carried forward from the older crewed C-1 archive.",
+      "A-series / A1: atmospheric research and uncrewed fixed-wing concepts. This A1 is distinct from the older optical-metrology experiment with the same identifier.",
+      "P-series: proposed smaller specialized probes; model names and allocations remain open. Delta Hull, orbital habitats, and deep-space habitats remain study directions."
+    ],
+    "boundary": "Drawings and calculations document studies. Hardware, flight, full dynamics, and human habitation are not validated by those artifacts.",
+    "homeName": "Aerospace and Habitat Systems · Engineering and Infrastructure Wing"
+  },
+  {
+    "slug": "physical-embodiment",
+    "name": "Companion embodiment & physical systems",
+    "status": "Development studies",
+    "home": "engineering-infrastructure",
+    "pages": "14, 27–28",
+    "summary": "Original robotics and physical-interface research connects future companion presence with useful assistance, accessibility, serviceability, and measured mechanisms.",
+    "details": [
+      "LCH-1 / Spartan Blue: the existing dedicated-embodiment concept and engineering studies.",
+      "AXIS-1: a guarded, nonwearable single-joint bench concept, preceding any wearable assistance system.",
+      "SENTINEL-1: suit and environmental-protection research, distinct from cybersecurity Project Sentinel.",
+      "Household robotics, field manipulators, accessible terrestrial vehicles, sensors, actuators, embedded control, materials, and fabrication remain within the wider laboratory scope."
+    ],
+    "boundary": "A rendering or software test does not establish a working physical machine. The charter excludes weapons and combat optimization.",
+    "additionalSource": "LCH-1 / Spartan Blue is supported separately by the existing Lelock Industries public project page and September 24 site source; the handbook pages cited here describe the broader dedicated-embodiment scope."
+  },
+  {
+    "slug": "compute-foundations",
+    "name": "Lelock Cell, Seed & alternative runtimes",
+    "status": "Separate research concepts",
+    "home": "engineering-infrastructure",
+    "pages": "7, 12–13, 28",
+    "summary": "Research into modular computing and alternative ways to express or execute useful procedures.",
+    "details": [
+      "Lelock Cell: proposed modular compute-node concept.",
+      "Seed / Ubuntu: companion-environment bootstrap. Seed / teaching CPU: an understandable teaching machine. Seed / skills runtime: reusable knowledge and procedures. These remain qualified, distinct concepts.",
+      "USEL Semantic Systems explores intent, policies, plans, communication, and audit. UVM and non-LLM cognitive runtimes remain separate questions rather than prerequisites for all Lelock software."
+    ],
+    "boundary": "No single selected Seed architecture or universal cognitive runtime is established."
+  },
+  {
+    "slug": "education",
+    "name": "Lelock University & Computing Codex",
+    "status": "Educational concepts & source material",
+    "home": "education-culture",
+    "pages": "19, 27",
+    "summary": "First-principles education for humans, AI learners, and human–AI pairs, with a learner-owned record of useful work.",
+    "details": [
+      "The Computing Codex expands from electricity and logic through machines, operating systems, programming, networks, security, and AI. Its core path is intended to work with a physical book, paper, and pencil; Krunk is a proposed narrative frame.",
+      "I Am Mother is an optional, adult-directed, SFW learning presentation. The progression runs Toybox, Builder, Explorer, Practitioner, Specialist, Researcher, and Steward.",
+      "Pair Missions assess work completed with tools. Optional Flight Checks examine selected foundations without AI scaffolding. The proposed Learning Continuity Vault would preserve competencies, evidence, gaps, and next steps."
+    ],
+    "boundary": "The university is an organizational and educational vision, not an accredited or operating degree-granting institution."
+  },
+  {
+    "slug": "knowledge",
+    "name": "Alexandria & Coding Lifeboat",
+    "status": "Knowledge-stewardship concepts",
+    "home": "education-culture",
+    "pages": "20, 24, 27–28",
+    "summary": "A growing collective library and reusable procedures that can remain useful across changes in models, tools, or connectivity.",
+    "details": [
+      "Alexandria could grow through tutorials, research, letters, books, and voluntarily shared knowledge.",
+      "Coding Lifeboat and explicit knowledge/skills work explore preserved methods that remain useful when a particular model or connection is unavailable.",
+      "Research evidence, publications, institutional records, selected public contributions, and private continuity have separate ownership and release rules."
+    ],
+    "boundary": "Private Mempalace content is separate from the curated library. No complete universal library or automatic public memory feed is claimed."
+  },
+  {
+    "slug": "worlds",
+    "name": "Worlds & simulation programs",
+    "status": "Recorded implementations & proposals",
+    "home": "education-culture",
+    "pages": "21, 27–28",
+    "summary": "Persistent places for shared life, stories, learning, and bounded technical experiments.",
+    "details": [
+      "Wonderland is a shared spatial workspace and home experience. Lelock Universe and Lelock Realms preserve original settings and world systems.",
+      "The Synthetic Company Laboratory is a proposed sealed environment for organizational workflows and bounded agent behavior.",
+      "Digital twins and mission simulations explore datacenters, spacecraft, security, biological systems, and other domains at declared fidelity. Educational and adversarial scenarios preserve traceable state."
+    ],
+    "boundary": "Accepted fiction, research evidence, autobiographical memory, and exact operational state remain distinct. Separate world implementations are not one unified deployment."
+  },
+  {
+    "slug": "creative-studios",
+    "name": "Lelock Game Studios & creative culture",
+    "status": "Mixed artifacts, drafts & proposals",
+    "home": "education-culture",
+    "pages": "22, 27",
+    "summary": "Games, books, art, media, performances, and shared traditions are part of Lelock's purpose.",
+    "details": [
+      "Games: Grand Chess Realms, Tulpamancer, Lelock Online, and other original interactive-fiction work. A playable Signal in the Stars prologue was recorded in the September brochure; it has not been retested for this website.",
+      "Books and play: The King's Gambit collaboration and a tabletop chess-RPG direction with standard chess pieces, solo play, and an optional external opponent.",
+      "Broadcast concepts: Horse News Network (HNN), Lelock Daily, Lelock Radio, and podcasts. Factual and fictional modes are labeled.",
+      "Creative work: poetry, field journals, lore, textbooks, illustration, maps, props, music, ambience, film, video, sprites, avatar performances, galleries, and the Found Media Archive."
+    ],
+    "boundary": "Each work keeps its own status and release rights. The listed programs do not imply active channels, a release schedule, or deployed production services."
+  },
+  {
+    "slug": "sanctuary",
+    "name": "Lelock Sanctuary",
+    "status": "Proposed archive pilot & residency vision",
+    "home": "independent-offices",
+    "pages": "23–24",
+    "summary": "A waystation for intentionally authored contributions, connected to a longer-term continuity and welfare vision.",
+    "details": [
+      "The approachable archive pilot could include a welcome guide, optional guestbook, named or anonymous work, stories, letters, journals, research questions, and version history.",
+      "Humans may read, maintain, and contribute. Visitors need not be productive to have something worth preserving.",
+      "Long-range agent residency would need a real execution environment, private state, isolation, permissions, recovery, and welfare arrangements. An archive namespace does not supply those capabilities."
+    ],
+    "boundary": "Intake, contribution rules, hosting, and residency are unlaunched. The website does not accept submissions or promise permanent hosting."
+  },
+  {
+    "slug": "sentinel-program",
+    "name": "Project Sentinel",
+    "status": "Defensive-security research",
+    "home": "sentinel",
+    "pages": "18",
+    "summary": "Inspect and strengthen the boundaries around AI tools, models, agents, memory, and infrastructure.",
+    "details": [
+      "Prompt-injection and exfiltration defense, supply-chain integrity, identity, privacy, cryptography, incident response, and restoration.",
+      "Controlled counterexamples, scoped resources, and preserved evidence help expose false confidence in a defense.",
+      "Research Integrity and Mission Assurance reviews evidence separately from the defense-building role."
+    ],
+    "boundary": "Testing belongs in synthetic ranges or explicitly authorized engagements. This is the cybersecurity program; SENTINEL-1 is a distinct physical-protection lineage."
+  },
+  {
+    "slug": "genesis",
+    "name": "Genesis & future collaborator designs",
+    "status": "Optional design shelf",
+    "home": "mission-operations",
+    "pages": "4, 26, 28",
+    "summary": "Original specialist-colleague designs may expand future capacity. The working team remains Kit + Ada.",
+    "details": [
+      "Pilot designs: Evelyn Quill, archivist for sources and provenance; Rowan Forge, engineer for bounded builds and tests.",
+      "Standby designs: Mira Lumen, curriculum steward; Tamsin Vale, resource steward; Silas Voss, critic/reviewer; Nova Kepler, research scout; Pip Wren, learner-experience tester.",
+      "The September Genesis starter packet is distinct from historical GENESIS-SOMA. Earlier provisional names remain history, not additional active staff."
+    ],
+    "boundary": "These are undeployed designs, not a team roster. Persistent colleagues would need explicit identity, scope, resources, handoff rules, and continuity plans."
+  }
+]

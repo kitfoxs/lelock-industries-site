@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import sys
+import json
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'dist'
@@ -54,8 +55,24 @@ for path, p in pages.items():
     errors.extend(f'{path.relative_to(OUT)}: {error}' for error in p.errors)
 if (ROOT / '.github/workflows').exists():
     errors.append('Publishing automation is intentionally absent for this private draft')
-if len(pages) != 13: errors.append(f'Expected 13 pages, found {len(pages)}')
+projects = json.loads((ROOT / 'content/projects.json').read_text())
+areas = json.loads((ROOT / 'content/organization.json').read_text())
+programs = json.loads((ROOT / 'content/programs.json').read_text())
+expected = {'index.html', 'projects/index.html', 'research/index.html', 'demos/index.html', 'about/index.html', 'connect/index.html', 'privacy/index.html', 'organization/index.html', 'programs/index.html', 'projects/living-datacenter/index.html'}
+expected.update(f'projects/{p["slug"]}/index.html' for p in projects)
+actual = {str(p.relative_to(OUT)) for p in pages}
+if actual != expected: errors.append(f'Route mismatch: missing={expected-actual}, extra={actual-expected}')
+if len(areas) != 7 or len({a['slug'] for a in areas}) != 7: errors.append('The handbook requires seven distinct organizational areas')
+for artifact in [OUT / 'organization/index.html', ROOT / 'README.md', ROOT / 'docs/ORGANIZATION-PROFILE-DRAFT.md', ROOT / 'docs/ORGANIZATION.md']:
+    text = artifact.read_text()
+    for a in areas:
+        if a['name'] not in text: errors.append(f'{artifact.name}: missing organizational area {a["name"]}')
+for program in programs:
+    if program['home'] not in {a['slug'] for a in areas}: errors.append(f'Unknown area for {program["name"]}')
+    if program['slug'] not in pages[(OUT/'programs/index.html').resolve()].ids: errors.append(f'Missing program anchor {program["slug"]}')
+for artifact in [OUT / 'index.html', OUT / 'projects/index.html', OUT / 'projects/lelock-command/index.html', ROOT / 'README.md', ROOT / 'docs/ORGANIZATION-PROFILE-DRAFT.md']:
+    if 'Lelock Command' not in artifact.read_text(): errors.append(f'{artifact.name}: approved display name missing')
 if errors:
     print('\n'.join(errors))
     sys.exit(1)
-print(f'PASS: {len(pages)} pages; local links, fragments, assets, headings, alt text, and private-preview metadata.')
+print(f'PASS: {len(pages)} pages; links/assets, seven-area coverage, {len(programs)} program groups, approved naming, accessibility structure, and private-preview metadata.')

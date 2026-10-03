@@ -8,6 +8,8 @@ Kit explicitly resumed the September 30 Lelock Industries GitHub portfolio plan 
 
 ## Content evidence
 
+- Master Identity & Organization Handbook, **LI-HB-001 / revision 1.0 / September 21, 2026**, 32 pages. All pages reviewed for this expansion; the seven-area map was also visually checked. Selected original summaries are in the organization/program pages and `docs/ORGANIZATION.md`; the original PDF and internal source archives remain local. See `docs/HANDBOOK-COVERAGE.md` for page mapping.
+- Owner's subsequent website-review decision: **Lelock AI Datacenter Command Systems**, displayed as **Lelock Command / AI Datacenter Systems**. It continues the Living Datacenter idea lineage without rewriting the historical handbook.
 - Existing Lelock Industries public-site source: Home, About, Connect, project and research pages. Reused brand identity and adapted public-facing team descriptions.
 - [Lelock OS public source](https://github.com/kitfoxs/Lelock-OS): companion workspace lineage; kept distinct from local Wonderland and native macOS implementations.
 - September 14 native-app delivery checkpoint: Lelock Native 0.3.0 (4), source checkpoint 390a877, installed SwiftUI/AppKit/RealityKit app with an app-owned Ubuntu VM and documented GUI/recovery checks. This supersedes the earlier desktop-prototype README for that separate native implementation.
